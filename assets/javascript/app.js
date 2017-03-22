@@ -34,7 +34,7 @@ $("#submitBtn").on("click", function(){
 });
 
 database.ref().on("child_added", function(childSnapshot) {
-	// var convertedDate = childSnapshot.val().start;
+	
 
 	var name = childSnapshot.val().name;
 	var destination = childSnapshot.val().destination;
